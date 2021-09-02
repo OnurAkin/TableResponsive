@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2em;
+}
+
+/*pagination-style*/
+.pro-result {
+  margin: 1em;
+  align-items: center;
+}
+.pro-result .pagination-style:last-child {
+  text-align: right;
+}
+.pagination-style .pagination ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+.pagination-style .pagination ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+.pagination-style .pagination ul li button {
+  color: #000;
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.pagination-style .pagination ul li button.active,
+.pagination-style .pagination ul li button:hover {
+  background-color: #13b5ea;
+  border: 1px solid #13b5ea;
+  color: #fff !important;
+}
+
+.pagination-style .show-result p {
+  margin-bottom: 0;
+  color: #bbb;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
